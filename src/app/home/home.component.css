@@ -1,0 +1,39 @@
+.converter-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.converter-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(240, 134, 48);
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.text h1{
+  color: white;
+}
+.converter-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.converter-column input,
+.converter-column select {
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+ 
+.converter-column select {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .converter-section {
+    flex-direction: column;
+  }
+}

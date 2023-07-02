@@ -1,0 +1,60 @@
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  img.brand-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .currency-rates {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .brand-name {
+    text-align: center;
+  }
+  
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .brand-logo img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .currency-rates {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .currency-rates p {
+    margin-bottom: 10px;
+  }
+  
+  
+  p {
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    img.brand-logo {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
